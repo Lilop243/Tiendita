@@ -1,0 +1,29 @@
+{
+    "producto":[
+        {
+            "id":1,
+            "name":"Zanahorias",
+            "precio":500,
+            "img":"https://image.freepik.com/foto-gratis/zanahorias-bebe_1339-7954.jpg"
+        },
+
+        {
+            "id":2,
+            "name":"Tomate",
+            "precio":450,
+            "img":"https://image.freepik.com/foto-gratis/tomate-rojo-fresco-aislado-blanco_1205-548.jpg?1"
+        },
+
+        {
+            "id":3,
+            "name":"Lechuga",
+            "precio":700,
+            "img":"https://image.freepik.com/foto-gratis/vehiculo-verde-fresca-natural-saludable_1203-5946.jpg"
+        }
+
+
+      
+
+
+    ]
+}
