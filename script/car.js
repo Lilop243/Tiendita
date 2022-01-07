@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded",() => {
         <p>&#36;${precio}</p>
         
         <a href="#"><button type="button" class="btn btn-primary" onclick="btn(${id})">Delate</button></a>
-        
         `
     })
 
@@ -29,6 +28,7 @@ const suma = () => {
     del.innerHTML += `
     
         <p class="total">Total:&#36;${valor}</p>
+        
     `
 }
 
@@ -42,3 +42,5 @@ const btn = (idP) => {
         localStorage.setItem("datos",JSON.stringify(content1))
     window.location.reload()
 }
+
+

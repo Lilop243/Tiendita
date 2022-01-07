@@ -30,6 +30,8 @@ const muestra = (producto) => {
     });
 }
 
+
+
         const btn = async (idbtn) => {
             // alert(idbtn)
 

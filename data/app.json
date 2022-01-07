@@ -20,10 +20,28 @@
             "precio":700,
             "img":"https://image.freepik.com/foto-gratis/vehiculo-verde-fresca-natural-saludable_1203-5946.jpg"
         }
+    ],
 
+    "produc2":[
+        {
+            "id":4,
+            "name":"Cebolla",
+            "precio":700,
+            "img":"https://image.freepik.com/foto-gratis/cebollas-crudas-sobre-superficie-blanca_144627-45173.jpg"
+        },
 
-      
+        {
+            "id":5,
+            "name":"Ajo",
+            "precio":700,
+            "img":"https://image.freepik.com/foto-gratis/cerca-ajo-fresco_144627-34523.jpg"
+        },
 
-
+        {
+            "id":6,
+            "name":"Pimenton",
+            "precio":700,
+            "img":"https://image.freepik.com/foto-gratis/grupo-prima-pimientos-vegetal_1203-5954.jpg"
+        }
     ]
 }
