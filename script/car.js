@@ -1,6 +1,7 @@
 let content1 = JSON.parse(localStorage.getItem('datos')) || []
 const carrito = document.getElementById("carrito")
 const del = document.getElementById("del")
+let compra = document.getElementById("compra")
 
 
 
@@ -43,4 +44,7 @@ const btn = (idP) => {
     window.location.reload()
 }
 
-
+compra.addEventListener("click", () => {
+    alert("gracias por su compra")
+    localStorage.removeItem("datos")
+})
