@@ -72,3 +72,12 @@ h2{
     -o-transform:rotate(-7deg);
 
 } */
+
+.table{
+   text-align: center;
+}
+
+.box3{
+    width: 100px;
+    align-items: center;
+}

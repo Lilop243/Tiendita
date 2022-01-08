@@ -9,13 +9,13 @@ document.addEventListener("DOMContentLoaded",() => {
     content1.forEach(element => {
         const {id,name,precio,img} = element
         carrito.innerHTML += `
-        
-        <h3>${name}</h3>
-        <img class="box" src="${img}" alt="">
+        <div class="table">
+        <p>${name}</p>
+        <img class="box3" src="${img}" alt="">
         <p>&#36;${precio}</p>
         
         <a href="#"><button type="button" class="btn btn-primary" onclick="btn(${id})">Delate</button></a>
-        `
+        </div>`
     })
 
    
@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded",() => {
 const suma = () => {
     let valor = content1.reduce((suma, valor) => (typeof valor.precio == "number" ? suma + valor.precio: suma),0)
     del.innerHTML += `
-    
-        <p class="total">Total:&#36;${valor}</p>
+                <br>
+        <p class="btn btn-success" class="total">Total:&#36;${valor}</p>
         
     `
 }
